@@ -1,7 +1,7 @@
 import os
 
 # path = './Sound-Data'
-path = "C:/Users/Howard/Documents/learnAudio/Sound-Data/"
+path = "C:/Users/Howard/Documents/learnAudio/Sound-Data/renameThese/toilet_sounds"
 numberTracker = []
 # INDEXTODEL = 0
 

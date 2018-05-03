@@ -1,7 +1,7 @@
 import os
-path = './Sound-Data'
+path = './Sound-Data/renameThese'
 
-filestodel = "8"
+filestodel = "2"
 
 for root, dirs, filenames in os.walk(path):
     print(root)
