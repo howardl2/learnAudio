@@ -1,6 +1,6 @@
 import os
 
-path = "./New-Data/AmbientRecordings"
+path = "./TalkingData/fold1"
 count = 0
 for root, dirs, filenames in os.walk(path):
     for filename in filenames:
@@ -8,8 +8,7 @@ for root, dirs, filenames in os.walk(path):
             temp = filename.split(".")
             print(temp)
             index = temp[1].find('wav')
-            print(index)
             newName = str(temp[1][:index] + "."+temp[1][index:])
-            print(newName)
+            print(filename, newName)
             originalFile = str(root+"/"+filename)
-            os.rename(originalFile,newName)
+            # os.rename(originalFile,newName)

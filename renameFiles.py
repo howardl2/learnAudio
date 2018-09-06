@@ -36,7 +36,7 @@ def renameFiles(INDEXTODEL):
                     originalFile = str(root+"/"+i)
                     print("Original: " + originalFile)
                     print("New: " + toRename)
-                    os.rename(originalFile,toRename)
+                    # os.rename(originalFile,toRename)
     return(missingNumbers)
 
 print(renameFiles(0))
